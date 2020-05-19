@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_88546f4eba4648f9b2bcf6f4ee4d5d72 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_88546f4eba4648f9b2bcf6f4ee4d5d72" ></div>
+        
+</body>
+<script>    
+    
+            var map_88546f4eba4648f9b2bcf6f4ee4d5d72 = L.map(
+                "map_88546f4eba4648f9b2bcf6f4ee4d5d72",
+                {
+                    center: [26.052525, 85.721238],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e02f401188e548b289ee9d9ca8b410a2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_88546f4eba4648f9b2bcf6f4ee4d5d72);
+        
+    
+            var feature_group_4493b96de629405b865abe8b62e3a6d3 = L.featureGroup(
+                {}
+            ).addTo(map_88546f4eba4648f9b2bcf6f4ee4d5d72);
+        
+    
+            var marker_fe919d4c765f4bda8bddcbe00911a2cc = L.marker(
+                [26.060019, 85.710004],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_20e36dff78c34e44a9a22bc75bcc52c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_fe919d4c765f4bda8bddcbe00911a2cc.setIcon(icon_20e36dff78c34e44a9a22bc75bcc52c1);
+        
+    
+        var popup_0f96ccd2533e43c8a2a1c9b0ad43a20c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7e1e411a87f4c59ac5c3d52c212fa9f = $(`<div id="html_d7e1e411a87f4c59ac5c3d52c212fa9f" style="width: 100.0%; height: 100.0%;">patient: Afjal Hussain ; age: 29.0</div>`)[0];
+            popup_0f96ccd2533e43c8a2a1c9b0ad43a20c.setContent(html_d7e1e411a87f4c59ac5c3d52c212fa9f);
+        
+
+        marker_fe919d4c765f4bda8bddcbe00911a2cc.bindPopup(popup_0f96ccd2533e43c8a2a1c9b0ad43a20c)
+        ;
+
+        
+    
+    
+            var marker_a08d4492e85847fd8e13a9a5b411926e = L.marker(
+                [26.061214, 85.710572],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_3c6ef9caf4704bc59dabdf91916b82ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_a08d4492e85847fd8e13a9a5b411926e.setIcon(icon_3c6ef9caf4704bc59dabdf91916b82ed);
+        
+    
+        var popup_9c538046185c4f84a2dede74d102605f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b8e2ea1d8c41789eb7887e8fa62c2b = $(`<div id="html_04b8e2ea1d8c41789eb7887e8fa62c2b" style="width: 100.0%; height: 100.0%;">patient: Subodh Yadav ; age: 25.0</div>`)[0];
+            popup_9c538046185c4f84a2dede74d102605f.setContent(html_04b8e2ea1d8c41789eb7887e8fa62c2b);
+        
+
+        marker_a08d4492e85847fd8e13a9a5b411926e.bindPopup(popup_9c538046185c4f84a2dede74d102605f)
+        ;
+
+        
+    
+    
+            var marker_073a28a17d91464b832c4732452b3b77 = L.marker(
+                [26.059788, 85.71051800000001],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_fcfef270393c45bd91a94e1bd5bc3e6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_073a28a17d91464b832c4732452b3b77.setIcon(icon_fcfef270393c45bd91a94e1bd5bc3e6b);
+        
+    
+        var popup_61cf0fcfa9684d85806e0a4361f28be9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dc0faea9a5c4eb5953d1675fde36c67 = $(`<div id="html_5dc0faea9a5c4eb5953d1675fde36c67" style="width: 100.0%; height: 100.0%;">patient: Phool Devi ; age: 23.0</div>`)[0];
+            popup_61cf0fcfa9684d85806e0a4361f28be9.setContent(html_5dc0faea9a5c4eb5953d1675fde36c67);
+        
+
+        marker_073a28a17d91464b832c4732452b3b77.bindPopup(popup_61cf0fcfa9684d85806e0a4361f28be9)
+        ;
+
+        
+    
+    
+            var marker_639ce4419ebb437aa5fe3041683f715c = L.marker(
+                [26.068507999999998, 85.703938],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_3b60cc5d516b4c72932034d222f0e7ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_639ce4419ebb437aa5fe3041683f715c.setIcon(icon_3b60cc5d516b4c72932034d222f0e7ad);
+        
+    
+        var popup_26c1148680fa4df687256e22313a1aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cf0282989d34d0a8efe7161245c7549 = $(`<div id="html_7cf0282989d34d0a8efe7161245c7549" style="width: 100.0%; height: 100.0%;">patient: Anwar Hussain ; age: 32.0</div>`)[0];
+            popup_26c1148680fa4df687256e22313a1aa0.setContent(html_7cf0282989d34d0a8efe7161245c7549);
+        
+
+        marker_639ce4419ebb437aa5fe3041683f715c.bindPopup(popup_26c1148680fa4df687256e22313a1aa0)
+        ;
+
+        
+    
+    
+            var marker_594b6f32b8e0414eacca1b16fb16c7b2 = L.marker(
+                [26.067838000000002, 85.70245200000001],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_9e0a34fd186b436c9cb68d95f5b65089 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_594b6f32b8e0414eacca1b16fb16c7b2.setIcon(icon_9e0a34fd186b436c9cb68d95f5b65089);
+        
+    
+        var popup_035142878b8d4426b34e10d66fb43f8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa681efd4c954937beb8910dcf8e6bfc = $(`<div id="html_fa681efd4c954937beb8910dcf8e6bfc" style="width: 100.0%; height: 100.0%;">patient: Dinesh Yadav ; age: 63.0</div>`)[0];
+            popup_035142878b8d4426b34e10d66fb43f8d.setContent(html_fa681efd4c954937beb8910dcf8e6bfc);
+        
+
+        marker_594b6f32b8e0414eacca1b16fb16c7b2.bindPopup(popup_035142878b8d4426b34e10d66fb43f8d)
+        ;
+
+        
+    
+    
+            var marker_85a537b3f2104db094e1136a8e37b245 = L.marker(
+                [26.065832999999998, 85.702353],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_88a391e7569e4d0798329c92b6ba38c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85a537b3f2104db094e1136a8e37b245.setIcon(icon_88a391e7569e4d0798329c92b6ba38c6);
+        
+    
+        var popup_2b8adbfca8824d359306ce4515aa4c45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4708c232494c476a9ad07f1e8e50fdf2 = $(`<div id="html_4708c232494c476a9ad07f1e8e50fdf2" style="width: 100.0%; height: 100.0%;">patient: Kamli Devi ; age: 43.0</div>`)[0];
+            popup_2b8adbfca8824d359306ce4515aa4c45.setContent(html_4708c232494c476a9ad07f1e8e50fdf2);
+        
+
+        marker_85a537b3f2104db094e1136a8e37b245.bindPopup(popup_2b8adbfca8824d359306ce4515aa4c45)
+        ;
+
+        
+    
+    
+            var marker_91793adc86714562a8febfadee6b3148 = L.marker(
+                [26.06645, 85.701615],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_c1938e7049504ccb9bd532236102acb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_91793adc86714562a8febfadee6b3148.setIcon(icon_c1938e7049504ccb9bd532236102acb9);
+        
+    
+        var popup_d2676fe763a940d1a083b7aaa1a49b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1f122e79547484ea09c5d76056fc9dd = $(`<div id="html_e1f122e79547484ea09c5d76056fc9dd" style="width: 100.0%; height: 100.0%;">patient: Imtiaz ; age: 25.0</div>`)[0];
+            popup_d2676fe763a940d1a083b7aaa1a49b04.setContent(html_e1f122e79547484ea09c5d76056fc9dd);
+        
+
+        marker_91793adc86714562a8febfadee6b3148.bindPopup(popup_d2676fe763a940d1a083b7aaa1a49b04)
+        ;
+
+        
+    
+    
+            var marker_efb9572ef6794babbc03b451e9eb2875 = L.marker(
+                [26.064282000000002, 85.70144300000001],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_da44c9601b0f492e81d8bfff8c2ca7ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_efb9572ef6794babbc03b451e9eb2875.setIcon(icon_da44c9601b0f492e81d8bfff8c2ca7ad);
+        
+    
+        var popup_dc7f72dcf79447aebcaec9eb4052d410 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26861d624bb7467cba1288979fef2e01 = $(`<div id="html_26861d624bb7467cba1288979fef2e01" style="width: 100.0%; height: 100.0%;">patient: Anjulata ; age: 37.0</div>`)[0];
+            popup_dc7f72dcf79447aebcaec9eb4052d410.setContent(html_26861d624bb7467cba1288979fef2e01);
+        
+
+        marker_efb9572ef6794babbc03b451e9eb2875.bindPopup(popup_dc7f72dcf79447aebcaec9eb4052d410)
+        ;
+
+        
+    
+    
+            var marker_4790c376a8a34b3b84732420de59ece6 = L.marker(
+                [26.059668, 85.698554],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_61443b3016464b499e2af1e3154d3a60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4790c376a8a34b3b84732420de59ece6.setIcon(icon_61443b3016464b499e2af1e3154d3a60);
+        
+    
+        var popup_fe56455abb2e431d8d731edd87ee9b7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6251a6417d1145bc888d5ee7339212fa = $(`<div id="html_6251a6417d1145bc888d5ee7339212fa" style="width: 100.0%; height: 100.0%;">patient: Bhikhari Paswan ; age: 53.0</div>`)[0];
+            popup_fe56455abb2e431d8d731edd87ee9b7c.setContent(html_6251a6417d1145bc888d5ee7339212fa);
+        
+
+        marker_4790c376a8a34b3b84732420de59ece6.bindPopup(popup_fe56455abb2e431d8d731edd87ee9b7c)
+        ;
+
+        
+    
+    
+            var marker_7c04430bee144bae9d01a47a4abb5e15 = L.marker(
+                [26.059054, 85.697284],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_63adc13a11424bfca8be0cc902ad4522 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c04430bee144bae9d01a47a4abb5e15.setIcon(icon_63adc13a11424bfca8be0cc902ad4522);
+        
+    
+        var popup_c13f822ddbc0487ca60ffd7170ee8a0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_644eb56a92d949dea30f7ceb5c8a522e = $(`<div id="html_644eb56a92d949dea30f7ceb5c8a522e" style="width: 100.0%; height: 100.0%;">patient: Indulekha ; age: 48.0</div>`)[0];
+            popup_c13f822ddbc0487ca60ffd7170ee8a0d.setContent(html_644eb56a92d949dea30f7ceb5c8a522e);
+        
+
+        marker_7c04430bee144bae9d01a47a4abb5e15.bindPopup(popup_c13f822ddbc0487ca60ffd7170ee8a0d)
+        ;
+
+        
+    
+    
+            var marker_2d733c98ef2e43fd91d6f8c4c9d163d6 = L.marker(
+                [26.047504, 85.709813],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_c4c17133222a47ab97bae1d458303e20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d733c98ef2e43fd91d6f8c4c9d163d6.setIcon(icon_c4c17133222a47ab97bae1d458303e20);
+        
+    
+        var popup_d612042eec214173b3fb515fa81f509f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93c0eb607cd74b39a3db51e7ae1f8c07 = $(`<div id="html_93c0eb607cd74b39a3db51e7ae1f8c07" style="width: 100.0%; height: 100.0%;">patient: Chandan ; age: 34.0</div>`)[0];
+            popup_d612042eec214173b3fb515fa81f509f.setContent(html_93c0eb607cd74b39a3db51e7ae1f8c07);
+        
+
+        marker_2d733c98ef2e43fd91d6f8c4c9d163d6.bindPopup(popup_d612042eec214173b3fb515fa81f509f)
+        ;
+
+        
+    
+    
+            var marker_3a983f0096764149bcd2b717bc222acb = L.marker(
+                [26.047007999999998, 85.708949],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_6abe43b4de984537bee738f57fff7f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a983f0096764149bcd2b717bc222acb.setIcon(icon_6abe43b4de984537bee738f57fff7f93);
+        
+    
+        var popup_3bc437fc33bf48ecbe05c440f8879440 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_991f83062b9c4251b791f6007559280c = $(`<div id="html_991f83062b9c4251b791f6007559280c" style="width: 100.0%; height: 100.0%;">patient: Usman Seikh ; age: 31.0</div>`)[0];
+            popup_3bc437fc33bf48ecbe05c440f8879440.setContent(html_991f83062b9c4251b791f6007559280c);
+        
+
+        marker_3a983f0096764149bcd2b717bc222acb.bindPopup(popup_3bc437fc33bf48ecbe05c440f8879440)
+        ;
+
+        
+    
+    
+            var marker_d6c3d749795c4639a56c4776f69e449b = L.marker(
+                [26.046608, 85.70975899999999],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_185594eaff084812acf45480840b71be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d6c3d749795c4639a56c4776f69e449b.setIcon(icon_185594eaff084812acf45480840b71be);
+        
+    
+        var popup_46ad542ae97842b697acf22f6b9693aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_423ab9b469994a75a5fbae40ca61f0f3 = $(`<div id="html_423ab9b469994a75a5fbae40ca61f0f3" style="width: 100.0%; height: 100.0%;">patient: Saurabh Jha ; age: 28.0</div>`)[0];
+            popup_46ad542ae97842b697acf22f6b9693aa.setContent(html_423ab9b469994a75a5fbae40ca61f0f3);
+        
+
+        marker_d6c3d749795c4639a56c4776f69e449b.bindPopup(popup_46ad542ae97842b697acf22f6b9693aa)
+        ;
+
+        
+    
+    
+            var marker_787fe441c23544c298eb0f5cd2417e19 = L.marker(
+                [26.049116, 85.718752],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_9a0bf0705c014bc49589ad1dcf07ac73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_787fe441c23544c298eb0f5cd2417e19.setIcon(icon_9a0bf0705c014bc49589ad1dcf07ac73);
+        
+    
+        var popup_0085d000bbcd4681b0ed1a60986633ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46480447004c4634b638585dc73d597a = $(`<div id="html_46480447004c4634b638585dc73d597a" style="width: 100.0%; height: 100.0%;">patient: Shashank Dubey ; age: 21.0</div>`)[0];
+            popup_0085d000bbcd4681b0ed1a60986633ad.setContent(html_46480447004c4634b638585dc73d597a);
+        
+
+        marker_787fe441c23544c298eb0f5cd2417e19.bindPopup(popup_0085d000bbcd4681b0ed1a60986633ad)
+        ;
+
+        
+    
+    
+            var marker_7c62a80de8664c29997a54b76c441ce7 = L.marker(
+                [26.046608, 85.70975899999999],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_848179641c464eeeb69e8df21e85055a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c62a80de8664c29997a54b76c441ce7.setIcon(icon_848179641c464eeeb69e8df21e85055a);
+        
+    
+        var popup_71878823e51c46508dc3bb345f40cbe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5449f7b2d4194d5b913bcf8e8249f023 = $(`<div id="html_5449f7b2d4194d5b913bcf8e8249f023" style="width: 100.0%; height: 100.0%;">patient: Sumit Paswan ; age: 38.0</div>`)[0];
+            popup_71878823e51c46508dc3bb345f40cbe8.setContent(html_5449f7b2d4194d5b913bcf8e8249f023);
+        
+
+        marker_7c62a80de8664c29997a54b76c441ce7.bindPopup(popup_71878823e51c46508dc3bb345f40cbe8)
+        ;
+
+        
+    
+    
+            var marker_b7bd6c9a74a44099b31c44a1fb81ea03 = L.marker(
+                [26.047439999999998, 85.709373],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_2395798a05e94f8985d810c54170e2dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7bd6c9a74a44099b31c44a1fb81ea03.setIcon(icon_2395798a05e94f8985d810c54170e2dd);
+        
+    
+        var popup_0e2fad7af7884d889afb68f2241ee5fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3570fbeb6cbc4fb189f3316c0f7ec664 = $(`<div id="html_3570fbeb6cbc4fb189f3316c0f7ec664" style="width: 100.0%; height: 100.0%;">patient: Suman Paswan ; age: 57.0</div>`)[0];
+            popup_0e2fad7af7884d889afb68f2241ee5fa.setContent(html_3570fbeb6cbc4fb189f3316c0f7ec664);
+        
+
+        marker_b7bd6c9a74a44099b31c44a1fb81ea03.bindPopup(popup_0e2fad7af7884d889afb68f2241ee5fa)
+        ;
+
+        
+    
+    
+            var marker_910c8eae8ec64abe8b1dbe727d06a01a = L.marker(
+                [26.047563, 85.709639],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_c6e51bf8a35b4526954d8aa2a8ca9256 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_910c8eae8ec64abe8b1dbe727d06a01a.setIcon(icon_c6e51bf8a35b4526954d8aa2a8ca9256);
+        
+    
+        var popup_e5ce5ce40fd84c22afa67a7f816de2c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cc5ddb2a19a4d9aa8a289240b5cbbb9 = $(`<div id="html_6cc5ddb2a19a4d9aa8a289240b5cbbb9" style="width: 100.0%; height: 100.0%;">patient: Anand Paswan ; age: 41.0</div>`)[0];
+            popup_e5ce5ce40fd84c22afa67a7f816de2c5.setContent(html_6cc5ddb2a19a4d9aa8a289240b5cbbb9);
+        
+
+        marker_910c8eae8ec64abe8b1dbe727d06a01a.bindPopup(popup_e5ce5ce40fd84c22afa67a7f816de2c5)
+        ;
+
+        
+    
+    
+            var marker_9d42cad81312468bae12db297992eeeb = L.marker(
+                [26.04757, 85.709701],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_8ff26b37ec3940a2a8e5b1bca218bade = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d42cad81312468bae12db297992eeeb.setIcon(icon_8ff26b37ec3940a2a8e5b1bca218bade);
+        
+    
+        var popup_1cf908a79c42433f8a61babce9758e7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cef1ee6535444e1beaadad4b027cbf7 = $(`<div id="html_9cef1ee6535444e1beaadad4b027cbf7" style="width: 100.0%; height: 100.0%;">patient: Ziya Ahmed ; age: 53.0</div>`)[0];
+            popup_1cf908a79c42433f8a61babce9758e7a.setContent(html_9cef1ee6535444e1beaadad4b027cbf7);
+        
+
+        marker_9d42cad81312468bae12db297992eeeb.bindPopup(popup_1cf908a79c42433f8a61babce9758e7a)
+        ;
+
+        
+    
+    
+            var marker_b8fe9283334f4454a19b86fdd87559fd = L.marker(
+                [26.04789, 85.710049],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_8bc7be78f2b84cd59e4d876d77d024c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b8fe9283334f4454a19b86fdd87559fd.setIcon(icon_8bc7be78f2b84cd59e4d876d77d024c2);
+        
+    
+        var popup_32774890349b4941b09871d3feb36b33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ee787fcc72941ca90fe159a7fb52f65 = $(`<div id="html_0ee787fcc72941ca90fe159a7fb52f65" style="width: 100.0%; height: 100.0%;">patient: Zubair Khan ; age: 27.0</div>`)[0];
+            popup_32774890349b4941b09871d3feb36b33.setContent(html_0ee787fcc72941ca90fe159a7fb52f65);
+        
+
+        marker_b8fe9283334f4454a19b86fdd87559fd.bindPopup(popup_32774890349b4941b09871d3feb36b33)
+        ;
+
+        
+    
+    
+            var marker_dd60960e0c8541e29355fd93b64d3c06 = L.marker(
+                [26.045711999999998, 85.709491],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_48b92197c68648468444022a32c2c1b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dd60960e0c8541e29355fd93b64d3c06.setIcon(icon_48b92197c68648468444022a32c2c1b9);
+        
+    
+        var popup_c815e5d398db4314b94fd46c61cee133 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c61cd246c0584f13a06c4b507bb13558 = $(`<div id="html_c61cd246c0584f13a06c4b507bb13558" style="width: 100.0%; height: 100.0%;">patient: Nisad Ansari ; age: 26.0</div>`)[0];
+            popup_c815e5d398db4314b94fd46c61cee133.setContent(html_c61cd246c0584f13a06c4b507bb13558);
+        
+
+        marker_dd60960e0c8541e29355fd93b64d3c06.bindPopup(popup_c815e5d398db4314b94fd46c61cee133)
+        ;
+
+        
+    
+    
+            var marker_ee9326b384b24d9d900619e043c5d132 = L.marker(
+                [26.050786, 85.701036],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_c899da6862e54dc9bad2215ec8f6359d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ee9326b384b24d9d900619e043c5d132.setIcon(icon_c899da6862e54dc9bad2215ec8f6359d);
+        
+    
+        var popup_a8cc6df58cc749ca874afc82beb85e85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3317d37b8b07459eb73e18143909e08a = $(`<div id="html_3317d37b8b07459eb73e18143909e08a" style="width: 100.0%; height: 100.0%;">patient: Noorjahan Seikh ; age: 20.0</div>`)[0];
+            popup_a8cc6df58cc749ca874afc82beb85e85.setContent(html_3317d37b8b07459eb73e18143909e08a);
+        
+
+        marker_ee9326b384b24d9d900619e043c5d132.bindPopup(popup_a8cc6df58cc749ca874afc82beb85e85)
+        ;
+
+        
+    
+    
+            var marker_51ab1085117f43c3bc4ef203de807887 = L.marker(
+                [26.046310000000002, 85.708804],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_6d02614c5e6e4a69b9d422d30de40cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_51ab1085117f43c3bc4ef203de807887.setIcon(icon_6d02614c5e6e4a69b9d422d30de40cbb);
+        
+    
+        var popup_99d09a4e76614ce19d23ba73829b91b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75c4893e7acc47c589f552a655ea494c = $(`<div id="html_75c4893e7acc47c589f552a655ea494c" style="width: 100.0%; height: 100.0%;">patient: Zakira Fatima ; age: 19.0</div>`)[0];
+            popup_99d09a4e76614ce19d23ba73829b91b5.setContent(html_75c4893e7acc47c589f552a655ea494c);
+        
+
+        marker_51ab1085117f43c3bc4ef203de807887.bindPopup(popup_99d09a4e76614ce19d23ba73829b91b5)
+        ;
+
+        
+    
+    
+            var marker_a4383657d02b445bb5ce1ca307d36bb6 = L.marker(
+                [26.044354000000002, 85.71696999999999],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_48ca234cfa98417fb45bd842cd1e5b45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a4383657d02b445bb5ce1ca307d36bb6.setIcon(icon_48ca234cfa98417fb45bd842cd1e5b45);
+        
+    
+        var popup_515d69d23e244493a46bd0bc7a534f40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ee63534d4c144f1b07bd91ab66b4901 = $(`<div id="html_4ee63534d4c144f1b07bd91ab66b4901" style="width: 100.0%; height: 100.0%;">patient: Bablu Patel ; age: 64.0</div>`)[0];
+            popup_515d69d23e244493a46bd0bc7a534f40.setContent(html_4ee63534d4c144f1b07bd91ab66b4901);
+        
+
+        marker_a4383657d02b445bb5ce1ca307d36bb6.bindPopup(popup_515d69d23e244493a46bd0bc7a534f40)
+        ;
+
+        
+    
+    
+            var marker_09fbad67b12b4e0c9881e9d2554528ef = L.marker(
+                [26.053987, 85.705628],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_e5eef6b6ea0c489aaeb4a6097b2e9cb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_09fbad67b12b4e0c9881e9d2554528ef.setIcon(icon_e5eef6b6ea0c489aaeb4a6097b2e9cb9);
+        
+    
+        var popup_7a8490dd4c5243368133b0d7d46d5e4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1a2b52bf8e24afd8f2ebe0458866789 = $(`<div id="html_a1a2b52bf8e24afd8f2ebe0458866789" style="width: 100.0%; height: 100.0%;">patient: Nutan Sahni ; age: 64.0</div>`)[0];
+            popup_7a8490dd4c5243368133b0d7d46d5e4b.setContent(html_a1a2b52bf8e24afd8f2ebe0458866789);
+        
+
+        marker_09fbad67b12b4e0c9881e9d2554528ef.bindPopup(popup_7a8490dd4c5243368133b0d7d46d5e4b)
+        ;
+
+        
+    
+    
+            var marker_ad9cd88c90da45a5b695ab8cab8c14dc = L.marker(
+                [26.054334, 85.703997],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_34347c81972546dab7d8830a640ada56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ad9cd88c90da45a5b695ab8cab8c14dc.setIcon(icon_34347c81972546dab7d8830a640ada56);
+        
+    
+        var popup_f24f5ed8dcc4421bb298199ab9fe18b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57fe4ba50d784faa9a66bf244c84a8f4 = $(`<div id="html_57fe4ba50d784faa9a66bf244c84a8f4" style="width: 100.0%; height: 100.0%;">patient: Balraj Sahni ; age: 61.0</div>`)[0];
+            popup_f24f5ed8dcc4421bb298199ab9fe18b5.setContent(html_57fe4ba50d784faa9a66bf244c84a8f4);
+        
+
+        marker_ad9cd88c90da45a5b695ab8cab8c14dc.bindPopup(popup_f24f5ed8dcc4421bb298199ab9fe18b5)
+        ;
+
+        
+    
+    
+            var marker_f96020a546ad40859e815ccc9e5eeaf3 = L.marker(
+                [26.054681, 85.702881],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_d2540ec7f07f42b288ddf92bebd00348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f96020a546ad40859e815ccc9e5eeaf3.setIcon(icon_d2540ec7f07f42b288ddf92bebd00348);
+        
+    
+        var popup_68fbb8f1b87648889d3e32a8af80b4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0226dbc0278b42bc90824b1f6b8ae9e7 = $(`<div id="html_0226dbc0278b42bc90824b1f6b8ae9e7" style="width: 100.0%; height: 100.0%;">patient: Mahindra Sahni ; age: 60.0</div>`)[0];
+            popup_68fbb8f1b87648889d3e32a8af80b4d4.setContent(html_0226dbc0278b42bc90824b1f6b8ae9e7);
+        
+
+        marker_f96020a546ad40859e815ccc9e5eeaf3.bindPopup(popup_68fbb8f1b87648889d3e32a8af80b4d4)
+        ;
+
+        
+    
+    
+            var marker_b825173391be4183b645c6a9e3c0c3f6 = L.marker(
+                [26.053485000000002, 85.70198],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_91cb06d339424b568ddde5b5490da367 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b825173391be4183b645c6a9e3c0c3f6.setIcon(icon_91cb06d339424b568ddde5b5490da367);
+        
+    
+        var popup_8a6b6beed0a947ac873b4b132559a69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21ab4f404e484514869837dd7612913d = $(`<div id="html_21ab4f404e484514869837dd7612913d" style="width: 100.0%; height: 100.0%;">patient: Bulbul Sahni ; age: 60.0</div>`)[0];
+            popup_8a6b6beed0a947ac873b4b132559a69f.setContent(html_21ab4f404e484514869837dd7612913d);
+        
+
+        marker_b825173391be4183b645c6a9e3c0c3f6.bindPopup(popup_8a6b6beed0a947ac873b4b132559a69f)
+        ;
+
+        
+    
+    
+            var marker_437225c409754e5fa1604e96dfbda368 = L.marker(
+                [26.052599, 85.70219399999999],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_eabca63aa5c841959fe755c39673d5bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_437225c409754e5fa1604e96dfbda368.setIcon(icon_eabca63aa5c841959fe755c39673d5bb);
+        
+    
+        var popup_7438ebecb1114aad8c77cfb04576de3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_428c397a464442d2b0667aef71c5edf6 = $(`<div id="html_428c397a464442d2b0667aef71c5edf6" style="width: 100.0%; height: 100.0%;">patient: Karisma Sahni ; age: 62.0</div>`)[0];
+            popup_7438ebecb1114aad8c77cfb04576de3c.setContent(html_428c397a464442d2b0667aef71c5edf6);
+        
+
+        marker_437225c409754e5fa1604e96dfbda368.bindPopup(popup_7438ebecb1114aad8c77cfb04576de3c)
+        ;
+
+        
+    
+    
+            var marker_0c1376a20db34d649f5a34a7efb6fa00 = L.marker(
+                [26.051635, 85.701465],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_d5ea7452b52045c780b952c0e05e58f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0c1376a20db34d649f5a34a7efb6fa00.setIcon(icon_d5ea7452b52045c780b952c0e05e58f3);
+        
+    
+        var popup_45b8c1d934244a0e9f7a404d5c6e65d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f194309496d64a208d5801ef10daa5a8 = $(`<div id="html_f194309496d64a208d5801ef10daa5a8" style="width: 100.0%; height: 100.0%;">patient: Omprakash Sahni ; age: 64.0</div>`)[0];
+            popup_45b8c1d934244a0e9f7a404d5c6e65d4.setContent(html_f194309496d64a208d5801ef10daa5a8);
+        
+
+        marker_0c1376a20db34d649f5a34a7efb6fa00.bindPopup(popup_45b8c1d934244a0e9f7a404d5c6e65d4)
+        ;
+
+        
+    
+    
+            var marker_6b3a8ba750a7425cb51a7fd49dbe7e51 = L.marker(
+                [26.050748000000002, 85.701036],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_e405264fb2c0465f81de4eca1a67639a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6b3a8ba750a7425cb51a7fd49dbe7e51.setIcon(icon_e405264fb2c0465f81de4eca1a67639a);
+        
+    
+        var popup_2b19ba91f83e425c94414eda84cfa783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a45cfa3213e14ec1b9aa2c4901133c04 = $(`<div id="html_a45cfa3213e14ec1b9aa2c4901133c04" style="width: 100.0%; height: 100.0%;">patient: Nafz Alam ; age: 67.0</div>`)[0];
+            popup_2b19ba91f83e425c94414eda84cfa783.setContent(html_a45cfa3213e14ec1b9aa2c4901133c04);
+        
+
+        marker_6b3a8ba750a7425cb51a7fd49dbe7e51.bindPopup(popup_2b19ba91f83e425c94414eda84cfa783)
+        ;
+
+        
+    
+    
+            var marker_aaa31837517b4f14803efdc8490ce64f = L.marker(
+                [26.050748000000002, 85.701036],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_d90cc5167dd042a5b98037cdb6608706 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_aaa31837517b4f14803efdc8490ce64f.setIcon(icon_d90cc5167dd042a5b98037cdb6608706);
+        
+    
+        var popup_063d19ef66384706b48c61c2150b6842 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2939f37bdfab4c52975590c55a114e73 = $(`<div id="html_2939f37bdfab4c52975590c55a114e73" style="width: 100.0%; height: 100.0%;">patient: Monu Paswan ; age: 64.0</div>`)[0];
+            popup_063d19ef66384706b48c61c2150b6842.setContent(html_2939f37bdfab4c52975590c55a114e73);
+        
+
+        marker_aaa31837517b4f14803efdc8490ce64f.bindPopup(popup_063d19ef66384706b48c61c2150b6842)
+        ;
+
+        
+    
+    
+            var marker_e4b8201cfd3749ff91facfb1386d77e6 = L.marker(
+                [26.049572, 85.700982],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_59163f25cb484bebba8a2adfe5fe2b87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e4b8201cfd3749ff91facfb1386d77e6.setIcon(icon_59163f25cb484bebba8a2adfe5fe2b87);
+        
+    
+        var popup_6fb5c8efbe8541b0b61058030cfbb155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d426559f8874e7281da37f0539b14f6 = $(`<div id="html_9d426559f8874e7281da37f0539b14f6" style="width: 100.0%; height: 100.0%;">patient: Mukta Jha ; age: 66.0</div>`)[0];
+            popup_6fb5c8efbe8541b0b61058030cfbb155.setContent(html_9d426559f8874e7281da37f0539b14f6);
+        
+
+        marker_e4b8201cfd3749ff91facfb1386d77e6.bindPopup(popup_6fb5c8efbe8541b0b61058030cfbb155)
+        ;
+
+        
+    
+    
+            var marker_02f97a97229544aca985a6328c2464d1 = L.marker(
+                [26.049321, 85.70128299999999],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_da6623db8bff43fe9d9a52ac0ad4e79f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_02f97a97229544aca985a6328c2464d1.setIcon(icon_da6623db8bff43fe9d9a52ac0ad4e79f);
+        
+    
+        var popup_7481b021249440a2bc786a5ca9881bed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1f2b823df8a422fb3832eb33d24d4da = $(`<div id="html_b1f2b823df8a422fb3832eb33d24d4da" style="width: 100.0%; height: 100.0%;">patient: Divya Jha ; age: 63.0</div>`)[0];
+            popup_7481b021249440a2bc786a5ca9881bed.setContent(html_b1f2b823df8a422fb3832eb33d24d4da);
+        
+
+        marker_02f97a97229544aca985a6328c2464d1.bindPopup(popup_7481b021249440a2bc786a5ca9881bed)
+        ;
+
+        
+    
+    
+            var marker_0f9e8457e15e4bceb94469f0177723f3 = L.marker(
+                [26.048973999999998, 85.701325],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_c8a199fc92bf41dcb35971b2434a9eb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0f9e8457e15e4bceb94469f0177723f3.setIcon(icon_c8a199fc92bf41dcb35971b2434a9eb0);
+        
+    
+        var popup_5d9ddf7ab5ca4001acfbcee208b11fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ca68ea983f4a77aea1a31e706b1876 = $(`<div id="html_72ca68ea983f4a77aea1a31e706b1876" style="width: 100.0%; height: 100.0%;">patient: Ramnaresh Tripathi ; age: 69.0</div>`)[0];
+            popup_5d9ddf7ab5ca4001acfbcee208b11fe2.setContent(html_72ca68ea983f4a77aea1a31e706b1876);
+        
+
+        marker_0f9e8457e15e4bceb94469f0177723f3.bindPopup(popup_5d9ddf7ab5ca4001acfbcee208b11fe2)
+        ;
+
+        
+    
+    
+            var marker_a3757004e85a47938d3035355e32818c = L.marker(
+                [26.048454, 85.701819],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_17b5ea4812c94da9ad4e01e940dd9bbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a3757004e85a47938d3035355e32818c.setIcon(icon_17b5ea4812c94da9ad4e01e940dd9bbf);
+        
+    
+        var popup_3531362e8dd44d49aa560251c159116a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e66a94fbe77840869a0246909c885e66 = $(`<div id="html_e66a94fbe77840869a0246909c885e66" style="width: 100.0%; height: 100.0%;">patient: Jaypee Bhargav ; age: 73.0</div>`)[0];
+            popup_3531362e8dd44d49aa560251c159116a.setContent(html_e66a94fbe77840869a0246909c885e66);
+        
+
+        marker_a3757004e85a47938d3035355e32818c.bindPopup(popup_3531362e8dd44d49aa560251c159116a)
+        ;
+
+        
+    
+    
+            var marker_98816301b19b4f74ac2333364478b9b6 = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_b4c5dbc1621a40409baa3108ca1383b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_98816301b19b4f74ac2333364478b9b6.setIcon(icon_b4c5dbc1621a40409baa3108ca1383b9);
+        
+    
+        var popup_4505803a4b95407b9b0b578ec44459f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f74b6310b78a4a65a799910bdabdfacb = $(`<div id="html_f74b6310b78a4a65a799910bdabdfacb" style="width: 100.0%; height: 100.0%;">patient: Mohit Patel ; age: 84.0</div>`)[0];
+            popup_4505803a4b95407b9b0b578ec44459f6.setContent(html_f74b6310b78a4a65a799910bdabdfacb);
+        
+
+        marker_98816301b19b4f74ac2333364478b9b6.bindPopup(popup_4505803a4b95407b9b0b578ec44459f6)
+        ;
+
+        
+    
+    
+            var marker_f582186c6b20405a849ce0d27bf97824 = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_ec77aa9728d84d9284a04488e3e86369 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f582186c6b20405a849ce0d27bf97824.setIcon(icon_ec77aa9728d84d9284a04488e3e86369);
+        
+    
+        var popup_a3cbc88c91b04536bbb562b37a35d2c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_155727d55e4f4856a5b1e6d7fef4c0bd = $(`<div id="html_155727d55e4f4856a5b1e6d7fef4c0bd" style="width: 100.0%; height: 100.0%;">patient: Khan Abdul ; age: 81.0</div>`)[0];
+            popup_a3cbc88c91b04536bbb562b37a35d2c5.setContent(html_155727d55e4f4856a5b1e6d7fef4c0bd);
+        
+
+        marker_f582186c6b20405a849ce0d27bf97824.bindPopup(popup_a3cbc88c91b04536bbb562b37a35d2c5)
+        ;
+
+        
+    
+    
+            var marker_71aad67453a84ef18c2288fc2e1f10b0 = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_c2a741f20571465783e7feddb0bf0a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_71aad67453a84ef18c2288fc2e1f10b0.setIcon(icon_c2a741f20571465783e7feddb0bf0a06);
+        
+    
+        var popup_3d8539fc326d43f09d8f03ea0b851a93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17a78c55b42546cb939bcca86e4cc4b7 = $(`<div id="html_17a78c55b42546cb939bcca86e4cc4b7" style="width: 100.0%; height: 100.0%;">patient: Gaffur Khan ; age: 83.0</div>`)[0];
+            popup_3d8539fc326d43f09d8f03ea0b851a93.setContent(html_17a78c55b42546cb939bcca86e4cc4b7);
+        
+
+        marker_71aad67453a84ef18c2288fc2e1f10b0.bindPopup(popup_3d8539fc326d43f09d8f03ea0b851a93)
+        ;
+
+        
+    
+    
+            var marker_64a99c26b6f045638e37638a30ac7fa0 = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_7e6ec2f12ddd4eadac394fea55d3377c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_64a99c26b6f045638e37638a30ac7fa0.setIcon(icon_7e6ec2f12ddd4eadac394fea55d3377c);
+        
+    
+        var popup_ea86dd375fac44eb94ea796cbe796d79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aafe81885a1843debfb63dd0560ea9b6 = $(`<div id="html_aafe81885a1843debfb63dd0560ea9b6" style="width: 100.0%; height: 100.0%;">patient: Mumtaz Begum ; age: 72.0</div>`)[0];
+            popup_ea86dd375fac44eb94ea796cbe796d79.setContent(html_aafe81885a1843debfb63dd0560ea9b6);
+        
+
+        marker_64a99c26b6f045638e37638a30ac7fa0.bindPopup(popup_ea86dd375fac44eb94ea796cbe796d79)
+        ;
+
+        
+    
+    
+            var marker_34d0bd1962a34af887d8355289db428e = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_15f25275aa994399beb528877f85a6f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_34d0bd1962a34af887d8355289db428e.setIcon(icon_15f25275aa994399beb528877f85a6f0);
+        
+    
+        var popup_639c808b1ada4b95a1716f09c2cdf28a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5fcc9204d63439a98d8421c9fe27aa6 = $(`<div id="html_d5fcc9204d63439a98d8421c9fe27aa6" style="width: 100.0%; height: 100.0%;">patient: Aurengzeb ; age: 69.0</div>`)[0];
+            popup_639c808b1ada4b95a1716f09c2cdf28a.setContent(html_d5fcc9204d63439a98d8421c9fe27aa6);
+        
+
+        marker_34d0bd1962a34af887d8355289db428e.bindPopup(popup_639c808b1ada4b95a1716f09c2cdf28a)
+        ;
+
+        
+    
+    
+            var marker_179bce7032394dfb97430b10d509e0ba = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_81605af7392540f7bae291999ed70f64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_179bce7032394dfb97430b10d509e0ba.setIcon(icon_81605af7392540f7bae291999ed70f64);
+        
+    
+        var popup_88c910e11cc74e7592190135fbd7a071 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a11ecec8cdd433d8efb2bfa1bbac38f = $(`<div id="html_0a11ecec8cdd433d8efb2bfa1bbac38f" style="width: 100.0%; height: 100.0%;">patient: Fakir Ul Rehman ; age: 67.0</div>`)[0];
+            popup_88c910e11cc74e7592190135fbd7a071.setContent(html_0a11ecec8cdd433d8efb2bfa1bbac38f);
+        
+
+        marker_179bce7032394dfb97430b10d509e0ba.bindPopup(popup_88c910e11cc74e7592190135fbd7a071)
+        ;
+
+        
+    
+    
+            var marker_bf07f9820a1b4d68955da358a846dabf = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_8e5b484a70134d4e9034f97c7663c607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bf07f9820a1b4d68955da358a846dabf.setIcon(icon_8e5b484a70134d4e9034f97c7663c607);
+        
+    
+        var popup_0e7b4429847b4d47aadd03d46f508584 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cf5d7aad6d3470d8283900a39788b7d = $(`<div id="html_3cf5d7aad6d3470d8283900a39788b7d" style="width: 100.0%; height: 100.0%;">patient: Razzak ; age: 63.0</div>`)[0];
+            popup_0e7b4429847b4d47aadd03d46f508584.setContent(html_3cf5d7aad6d3470d8283900a39788b7d);
+        
+
+        marker_bf07f9820a1b4d68955da358a846dabf.bindPopup(popup_0e7b4429847b4d47aadd03d46f508584)
+        ;
+
+        
+    
+    
+            var marker_37ef77a924b44471b3f828e43d2827e9 = L.marker(
+                [26.047914000000002, 85.702312],
+                {}
+            ).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+        
+    
+            var icon_697ee7a57ff84c1f9b22a67f015169b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_37ef77a924b44471b3f828e43d2827e9.setIcon(icon_697ee7a57ff84c1f9b22a67f015169b0);
+        
+    
+        var popup_b7cdf739aca64aff9d6b71e055c1c6ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_841a0a81791b4d53898a76f545e9b51e = $(`<div id="html_841a0a81791b4d53898a76f545e9b51e" style="width: 100.0%; height: 100.0%;">patient: Akhlaq Ahmed ; age: 61.0</div>`)[0];
+            popup_b7cdf739aca64aff9d6b71e055c1c6ea.setContent(html_841a0a81791b4d53898a76f545e9b51e);
+        
+
+        marker_37ef77a924b44471b3f828e43d2827e9.bindPopup(popup_b7cdf739aca64aff9d6b71e055c1c6ea)
+        ;
+
+        
+    
+    
+        function geo_json_d33b3f145c9343dfbb704d33b62bc936_styler(feature) {
+            switch(feature.properties.POP2020) {
+                default:
+                    return {"fillColor": "green"};
+            }
+        }
+        function geo_json_d33b3f145c9343dfbb704d33b62bc936_onEachFeature(feature, layer) {
+            layer.on({
+                click: function(e) {
+                    map_88546f4eba4648f9b2bcf6f4ee4d5d72.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_d33b3f145c9343dfbb704d33b62bc936 = L.geoJson(null, {
+                onEachFeature: geo_json_d33b3f145c9343dfbb704d33b62bc936_onEachFeature,
+            
+                style: geo_json_d33b3f145c9343dfbb704d33b62bc936_styler,
+        }).addTo(feature_group_4493b96de629405b865abe8b62e3a6d3);
+
+        function geo_json_d33b3f145c9343dfbb704d33b62bc936_add (data) {
+            geo_json_d33b3f145c9343dfbb704d33b62bc936.addData(data);
+        }
+            geo_json_d33b3f145c9343dfbb704d33b62bc936_add({"crs": {"properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}, "type": "name"}, "features": [{"geometry": {"coordinates": [[[[26.061813, 85.695285], [26.063471, 85.696444], [26.068598, 85.701422], [26.070332, 85.7064], [26.069754, 85.707688], [26.066979, 85.709018], [26.064087, 85.713267], [26.062198, 85.712065], [26.060926, 85.712923], [26.06081, 85.715155], [26.058382, 85.718717], [26.056261, 85.71803], [26.055818, 85.718395], [26.055741, 85.718435], [26.055269, 85.719626], [26.055269, 85.720978], [26.054806, 85.722051], [26.053013, 85.72262], [26.052271, 85.722633], [26.048203, 85.719189], [26.044993, 85.721088], [26.042111, 85.720766], [26.043171, 85.715466], [26.043701, 85.713052], [26.043711, 85.707677], [26.04373, 85.70698], [26.045108, 85.704534], [26.048318, 85.70183], [26.050159, 85.700307], [26.053629, 85.698773], [26.057012, 85.697271], [26.06187, 85.695227]]]], "type": "MultiPolygon"}, "properties": {"CENSUS": "FULHATTA POINT", "DISTRICT": "SAMASTIPUR", "LAT": 26.063355, "LON": 85.711421, "PO": "KALYANPUR", "POP2020": 8322, "PROVINCE": "HATHA KALOUNJAR", "VILLAGE": "Kalounjar", "VILLAGE_ID": 3010102, "YEAR": 2020}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+</script>
